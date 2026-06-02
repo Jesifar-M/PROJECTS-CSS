@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Contact Card</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Fixed Header */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            z-index: 1000;
+        }
+
+        /* Profile Section */
+        .profile-box {
+            position: relative;
+            width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            background-color: #f4f4f4;
+            overflow: auto;
+            height: 250px;
+        }
+
+        /* Profile Image */
+        .profile-box img {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        /* Employee Details */
+        .details {
+            text-align: center;
+            margin-right: 220px;
+        }
+
+        /* Contact Info Box */
+        .contact-info {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 180px;
+            text-align: center;
+            border-left: 3px solid black; /* Vertical Line */
+            padding-left: 15px;
+        }
+
+        h2, h3, p {
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Company Contact Card
+    </div>
+
+    <div class="profile-box">
+
+        <img src="CONTACT-IMG.png" alt="Profile Image">
+
+        <div class="details">
+            <h2>John Smith</h2>
+            <h3>Software Engineer</h3>
+            <p>
+                John is an experienced software engineer specializing in
+                web development and cloud technologies. He works on
+                creating efficient and user-friendly applications.
+            </p>
+        </div>
+
+        <div class="contact-info">
+            <h3>Contact Info</h3>
+            <p>📞 +91 9876543210</p>
+            <p>✉️ john@company.com</p>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+</html>
