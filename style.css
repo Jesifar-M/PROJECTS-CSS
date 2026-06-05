@@ -4,6 +4,9 @@
     padding: 15px;
     border: 1px solid #ccc;
     text-align: left;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: #fff;
 }
 
 /* Product Image */
@@ -12,6 +15,19 @@
     border: 2px solid black;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    display: block;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 15px;
+    border: none;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
 }
 
 /* Small Screens */
